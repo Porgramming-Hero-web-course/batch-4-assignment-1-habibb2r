@@ -3,7 +3,7 @@
 
 
     const validateKeys = <T>(obj: T, keys: (keyof T)[]): boolean => {
-        const checkKeys = keys.every(key => obj[key])
+        const checkKeys : boolean = keys.every(key => obj[key])
         return checkKeys
       };
       

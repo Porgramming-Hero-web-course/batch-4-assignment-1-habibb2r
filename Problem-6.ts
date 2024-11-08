@@ -7,7 +7,7 @@
     }
 
     const updateProfile = (profileData: Profile, updateData: Partial<Profile>): Profile =>{
-        const update = { ...profileData, ...updateData}
+        const update : Profile = { ...profileData, ...updateData}
         return update
     }
 

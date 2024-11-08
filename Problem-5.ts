@@ -2,7 +2,9 @@
 
     
     const getProperty = <T, K extends keyof T>(objData: T, key: K): T[K] =>{
-        return objData[key];
+        const propertyValue = objData[key];
+        console.log(propertyValue);
+        return propertyValue
     }
 
     const person = {name: 'Habib', age: 25, city: 'CTG'}

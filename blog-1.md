@@ -4,7 +4,7 @@ Type guards gives us type safety and type specified operations in Typescript. It
 # Discuss Various Types of Type Guards and Their Use Cases.
 Types of Type Guards and Their Use Cases:
  
- + typeof : 
+ ## typeof 
  This type guard used to check for types like string, number, boolean object undefined etc.
  example:
 
@@ -20,7 +20,7 @@ Types of Type Guards and Their Use Cases:
     console.log(add(5, "3"))
 ```
 
-+ instanceof : 
+## instanceof : 
 This type guard used to check for if an object is an instace of a specific class
 example: 
 
@@ -46,7 +46,7 @@ function makeSound(animal: Dog | Cat) {
 }
 ```
 
-+ User Defined : 
+## User Defined : 
 This type guard used to determine if a variable is of a specific type and useful for more complex type checks
 example:
 
@@ -72,7 +72,7 @@ function makeSound(animal: Dog | Cat) {
 }
 ```
 
-+ in : 
+## in : 
 This type guard used to checik if an object has a specific property
 example:
 
